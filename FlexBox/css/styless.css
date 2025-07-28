@@ -1,19 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#padre{
+#padre {
     width: 100vw;
-    padding: 100vh;
+    height: 100vh;
     background-color: rgb(41, 145, 51);
     display: flex;
-    justify-content: center;
+
+    justify-content: space-evenly;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     align-content: center;
-    align-items: center;
+
 
 
 }
-.hijo{
+
+.hijo {
     width: 400px;
     height: 400px;
     background-color: red;
+    border-radius: 15px;
 }
