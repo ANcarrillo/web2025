@@ -1,0 +1,19 @@
+
+#padre{
+    width: 100vw;
+    padding: 100vh;
+    background-color: rgb(41, 145, 51);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+
+}
+.hijo{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
